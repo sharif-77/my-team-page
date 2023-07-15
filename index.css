@@ -53,7 +53,7 @@
 @media screen and (max-width: 576px) {
   .image-collage {
     width: 100vw;
-    padding: 40px;
+    padding: 40px 15px;
   }
   .text-container {
     flex-direction: column;
@@ -66,7 +66,7 @@
   }
   .images-container {
     gap: 20px;
-    grid-template-columns: repeat(2, 48%);
+    grid-template-columns: repeat(2, 49%);
   }
   .image > img {
     width: 100%;
